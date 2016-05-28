@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="org.androidchile.gamerpg.fragment.MapFragment"
+    tools:showIn="@layout/activity_main">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/speech_bubble"
+        app:backgroundTint="@color/colorBlue"
+        app:elevation="6dp"/>
+
+    <FrameLayout
+        android:id="@+id/layoutGrass"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+    </FrameLayout>
+
+</RelativeLayout>

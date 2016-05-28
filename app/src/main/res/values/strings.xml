@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Application name -->
+    <string name="app_name">Game RPG</string>
+
+    <!-- Hints -->
+    <string name="hint_nickname">Nickname</string>
+    <string name="hint_message">Message</string>
+
+    <!-- Texts -->
+    <string name="text_you_are_walking">You are walking</string>
+    <string name="text_say_something">Say something!</string>
+    <string name="text_you_are_here">You are here</string>
+
+    <!-- Titles -->
+    <string name="title_dialog_message">Write your message</string>
+
+    <!-- Buttons -->
+    <string name="button_message_send">SEND</string>
+    <string name="button_message_back">BACK</string>
+
+</resources>
